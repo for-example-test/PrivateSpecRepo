@@ -1,0 +1,23 @@
+{
+  "name": "OCHooking",
+  "version": "0.1.1",
+  "summary": "swizzle method with block.",
+  "description": "OCHooking swizzle method with block.",
+  "homepage": "https://github.com/tripleCC/OCHooking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tripleCC": "triplec.linux@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tripleCC/OCHooking.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OCHooking/Classes/**/*",
+  "public_header_files": "OCHooking/Classes/**/*.{h}"
+}
