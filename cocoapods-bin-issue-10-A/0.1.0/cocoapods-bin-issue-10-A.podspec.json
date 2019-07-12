@@ -1,0 +1,31 @@
+{
+  "name": "cocoapods-bin-issue-10-A",
+  "version": "0.1.0",
+  "summary": "A short description of cocoapods-bin-issue-10-A.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tripleCC/cocoapods-bin-issue-10-A",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tripleCC": "triplec.linux@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/for-example-test/cocoapods-bin-issue-10-A.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "cocoapods-bin-issue-10-A/Classes/A.{h,m}"
+    },
+    {
+      "name": "Sub",
+      "source_files": "cocoapods-bin-issue-10-A/Classes/AS.{h,m}"
+    }
+  ]
+}
